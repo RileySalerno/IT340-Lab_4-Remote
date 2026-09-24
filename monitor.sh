@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Log the date and memory usage
+# Resolved Header
 
-echo "DAILY MEMORY CHECK - $(date)" >> system_log.txt
-free -h | grep Mem >> system_log.txt
-echo "--------------------------------" >> system_log.txt
+echo "OFFICISL SYSTEM REPORT (Memory) - $(date)" >> /home/riley/Lab_4/system_log.txt
+free -h | grep Mem >> /home/riley/Lab_4/system_log.txt
+echo "--------------------------------" >> /home/riley/Lab_4/system_log.txt
